@@ -134,10 +134,34 @@ body section{
  display: flex;
  width: 100%;
  justify-content: space-around;
- margin-top: 3rem;
+ margin-top: 1rem;
 }
-#home .left .sotial-midea i{
+#home .left h2{
+ margin-top: 3rem;
+ font-size: 30px;
+}
+#home .left .sotial-midea a{
  cursor: pointer;
+ color: black;
+ font-size: 35px;
+ object-fit: cover;
+ border-radius: 20%;
+ padding: 10px;
+ border: 2px solid #fff;
+}
+#home .left .sotial-midea a i{
+ background: rgb(250, 250, 241);
+ padding: 12px;
+ border-radius: 20%;
+}
+#home .left .sotial-midea .fa-facebook{
+ color: blue;
+}
+#home .left .sotial-midea .fa-instagram{
+ color: rgb(134, 7, 134);
+}
+#home .left .sotial-midea .fa-linkedin{
+ color: blue;
 }
 #home .left button:hover{
  filter: brightness(0.9);
