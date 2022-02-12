@@ -2,10 +2,10 @@ import {HeadPersonal} from "../components/Head";
 import { Header } from "../components/Header";
 import {Container, Background, Text} from "../../styles/Home.css";
 import { Button } from "../components/Button";
-import { Sobre } from "./sobre";
-import { Habilidades } from "./habilidades";
-import { Projetos } from "./projetos";
-import { Contatos } from "./contatos";
+import  Sobre  from "./sobre";
+import  Habilidades  from "./habilidades";
+import  Projetos  from "./projetos";
+import  Contatos  from "./contatos";
 import Link from "next/link";
 
 export default function Home() {
