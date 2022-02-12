@@ -7,28 +7,28 @@ export function Projetos(){
       </div>
       <div className="wrapper">
         <div className="projeto destaque">
-          <a href="https://timer-clock.vercel.app/" target="_blank" rel="no rel">
+          <a href="https://timer-clock.vercel.app/" target="_blank" rel="noreferrer">
             <img src="assets/timer-clock.png" alt="first-project" />
           </a>
         </div>
         <div className="projetos">
           <div className="projeto">
-            <a href="https://git-hub-clone-ui.vercel.app/" target="_blank" rel="no rel">
+            <a href="https://git-hub-clone-ui.vercel.app/" target="_blank" rel="noreferrer">
               <img src="assets/github-clone.png" alt="" />      
             </a>
           </div>
           <div className="projeto">
-            <a href="https://git-hub-clone-ui.vercel.app/" target="_blank" rel="no rel">
+            <a href="https://git-hub-clone-ui.vercel.app/" target="_blank" rel="noreferrer">
               <img src="assets/github-clone.png" alt="" />      
             </a>
           </div>
           <div className="projeto">
-            <a href="https://git-hub-clone-ui.vercel.app/" target="_blank" rel="no rel">
+            <a href="https://git-hub-clone-ui.vercel.app/" target="_blank" rel="noreferrer">
               <img src="assets/github-clone.png" alt="" />      
             </a>
           </div>
           <div className="projeto">
-            <a href="https://git-hub-clone-ui.vercel.app/" target="_blank" rel="no rel">
+            <a href="https://git-hub-clone-ui.vercel.app/" target="_blank" rel="noreferrer">
               <img src="assets/github-clone.png" alt="" />      
             </a>
           </div>
