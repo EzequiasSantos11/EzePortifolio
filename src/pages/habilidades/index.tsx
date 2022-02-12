@@ -1,7 +1,7 @@
 import { Button } from "../../components/Button";
 import { Container, Wrapper, Card } from "./styles";
 
-export function Habilidades() {
+export default function Habilidades() {
 	return (
 		<Container id="Habilidades">
 			<div className="title">

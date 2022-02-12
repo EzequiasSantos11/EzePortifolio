@@ -1,5 +1,5 @@
 import {Container} from "./styles";
-export function Projetos(){
+export default function Projetos(){
   return(
     <Container id="projetos">
       <div className="title">

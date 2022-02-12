@@ -1,7 +1,7 @@
 import {Container, SotialMidea, WhatsIcon, FaceIcon, InstaIcon, GitIcon} from "./styles";
 
 
-export function Contatos(){
+export default function Contatos(){
   return(
     <Container id="contatos">
       <h4>Vomos trabalhar juntos?</h4>

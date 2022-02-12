@@ -3,7 +3,7 @@ import { Button } from "../../components/Button";
 import {Container, Text, Wrapper} from "./styles";
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
-export function Sobre(){
+export default function Sobre(){
 	return(
 		<Container id="sobre">
 			<Wrapper>
