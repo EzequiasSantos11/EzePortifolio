@@ -1,41 +1,44 @@
 import { Button } from "../../components/Button";
-import {Container, Wrapper, Card} from "./styles";
+import { Container, Wrapper, Card } from "./styles";
 
-export function Habilidades(){
-	return(
+export function Habilidades() {
+	return (
 		<Container id="Habilidades">
+			<div className="title">
+				<h3>Minhas habilidades</h3>
+			</div>
 			<Wrapper>
 				<Card>
-					<img src="" alt="" />
+					<img src="assets/rectangle.png" alt="" />
+						<h2>React.js</h2>
 					<div className="text">
-						<h2>Um texto lorem</h2>
-						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sint itaque nisi quia nesciunt, harum quasi excepturi laborum veritatis tenetur quae obcaecati voluptatum commodi. Esse a dolor consequatur quibusdam quas.</p>
+						<p>Com o React.js seu site será muito mais escalável, de fácio manutenção e bem indexado pelos mecanismos de busca como o GoogleChrome por exemplo.</p>
 					</div>
-					<Button text={"saiba mais"}/>
+					<div className="button">
+						<Button text={"saiba mais"} />
+					</div>
 				</Card>
 				<Card>
-					<img src="" alt="" />
+					<img src="assets/rectangle.png" alt="" />
+					<h2>CSS</h2>
 					<div className="text">
-						<h2>Um texto lorem</h2>
-						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sint itaque nisi quia nesciunt, harum quasi excepturi laborum veritatis tenetur quae obcaecati voluptatum commodi. Esse a dolor consequatur quibusdam quas.</p>
+						<p>
+							Usando minhas habilidades em CSS seu site será responsivo, imersivo e terá mais vida. O css permite que o site passe a identidade visual da sua marca/empresa para seu público alvo.
+						</p>
 					</div>
-					<Button text={"saiba mais"}/>
+					<div className="button">
+						<Button text={"saiba mais"} />
+					</div>
 				</Card>
 				<Card>
-					<img src="" alt="" />
+					<img src="assets/rectangle.png" alt="" />
+					<h2>API REST</h2>
 					<div className="text">
-						<h2>Um texto lorem</h2>
-						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sint itaque nisi quia nesciunt, harum quasi excepturi laborum veritatis tenetur quae obcaecati voluptatum commodi. Esse a dolor consequatur quibusdam quas.</p>
+						<p>Com a API REST é possível implementar funcionalidades ao site de forma acertiva sem complicações, possibilitando ao usuário uma experiência unica e sem dores de cabeça.</p>
 					</div>
-					<Button text={"saiba mais"}/>
-				</Card>
-				<Card>
-					<img src="" alt="" />
-					<div className="text">
-						<h2>Um texto lorem</h2>
-						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sint itaque nisi quia nesciunt, harum quasi excepturi laborum veritatis tenetur quae obcaecati voluptatum commodi. Esse a dolor consequatur quibusdam quas.</p>
+					<div className="button">
+						<Button text={"saiba mais"} />
 					</div>
-					<Button text={"saiba mais"}/>
 				</Card>
 			</Wrapper>
 		</Container>

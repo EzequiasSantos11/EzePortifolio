@@ -18,19 +18,46 @@ export const Wrapper = styled.div`
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
-    position: relative;
     .imagem-foto{
         display: flex;
-        background: #800080;
-        margin-right: 30px;
-        padding: 0 20px;
-        border-bottom-left-radius: 30%;
-        border-bottom-right-radius: 30%;
+        justify-content: center;
+        margin-right: 3.5rem;
+        position: relative;
+        width: 60%;
+        .seeMore{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            width: 100%;
+            bottom: 7rem;
+            h3{
+                font-size: 24px;
+            }
+        }
         img{
             display: flex;
-            height: 80%;
-            border-radius: 50%;
+            height: 100%;
+            width: 100%;
         }
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        height: 50px;
+        width: 70%;
+        position: absolute;
+        bottom: 3rem;
+        z-index: 2;
+        button{
+            border: 2px solid rgba(255, 255, 255, 0.6);
+            &:hover{
+                opacity: .8;
+            }
+            transition: all .3s ease;
+        }
+
     }
 `;
 export const Text = styled.div`
@@ -39,6 +66,8 @@ export const Text = styled.div`
     justify-content: center;
     text-align: left;
     margin: 30px;
+    margin-bottom: 60px;
+    position: relative;
     h2{
         font-size: 52px;
         font-weight: 700;
@@ -51,4 +80,5 @@ export const Text = styled.div`
         margin: 20px 0;
         padding: 0 30px;
     }
+   
 `;

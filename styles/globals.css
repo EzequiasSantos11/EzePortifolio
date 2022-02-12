@@ -16,3 +16,10 @@ html{
   color: var(--color-primary);
  
 }
+html input, button{
+  outline: none;
+  background: none;
+  border: none;
+  color: #fff;
+  border: 2px solid white;
+}

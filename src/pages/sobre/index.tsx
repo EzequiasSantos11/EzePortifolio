@@ -1,4 +1,7 @@
+import Link from "next/link";
+import { Button } from "../../components/Button";
 import {Container, Text, Wrapper} from "./styles";
+import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 export function Sobre(){
 	return(
@@ -6,10 +9,24 @@ export function Sobre(){
 			<Wrapper>
 				<Text>
 					<h2>Sobre mim</h2>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod est maiores consequuntur ex recusandae, hic voluptate tenetur nulla dicta libero reiciendis facilis nemo provident quibusdam eius reprehenderit animi id expedita culpa soluta perferendis perspiciatis illum. Eligendi commodi nisi in sed saepe itaque voluptate nostrum autem eaque, totam aliquid eos qui!</p>
+					<p>Meu nome é Ezequias Soares, sou desenvolvedor front-end a 2 anos e apaixonado por aprender coisas novas. <br/> Eu nasci em Paracatu-MG onde moro atualmente, meu objetivo é ajudar as pessoas a tirar os sonhos do papel e transformar em sites reais.</p>
 				</Text>
 				<div className="imagem-foto">
-					<img src="assets/eze.jpeg" alt="imagem-ezequias" />
+					<div className="seeMore">
+						<h3>Saiba mais</h3>
+						<KeyboardDoubleArrowDownIcon/>
+					</div>
+					<div className="button">
+						<Button
+							text={
+								<Link href="#Habilidades">
+									<a>Minhas Habilidades</a>
+								</Link>
+							}
+							/>
+					</div> 
+
+					<img src="assets/foto-eze.jpeg" alt="imagem-ezequias" />
 				</div>
 			</Wrapper>
 		</Container>
