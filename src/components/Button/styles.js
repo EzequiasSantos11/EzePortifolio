@@ -19,7 +19,7 @@ export const Container = styled.button`
     a{
         color: white;
         white-space: nowrap;
-        padding: 90%;
+      
     }
     &:hover{
         opacity: .9;       

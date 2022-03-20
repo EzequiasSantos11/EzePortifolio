@@ -1,4 +1,4 @@
-import {Container, SotialMidea, WhatsIcon, FaceIcon, InstaIcon, GitIcon} from "./styles";
+import {Container, SotialMidea, WhatsIcon, FaceIcon, InstaIcon, GitIcon} from "../../../styles/styles.contatos";
 
 
 export default function Contatos(){

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "../../components/Button";
-import {Container, Text, Wrapper} from "./styles";
+import {Container, Text, Wrapper} from "../../../styles/styles.sobre";
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 
 export default function Sobre(){

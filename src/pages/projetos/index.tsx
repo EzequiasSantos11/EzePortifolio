@@ -1,4 +1,4 @@
-import {Container} from "./styles";
+import {Container} from "../../../styles/styles.projetos";
 export default function Projetos(){
   return(
     <Container id="projetos">

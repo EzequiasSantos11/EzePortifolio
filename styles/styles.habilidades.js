@@ -13,7 +13,6 @@ export const Container = styled.div`
         position: absolute;
         top: 6rem;
         font-size: 28px;
-
     }
 `;
 export const Wrapper = styled.div`
@@ -34,8 +33,15 @@ export const Card = styled.div`
     align-items: center;
     position: relative;
     h2{
+        display: flex;
+        align-items: center;
         position: absolute;
         top: 1.5rem;
+        img{
+            height: 40px;
+            width:40px;
+            margin-left: 20px;
+        }
     }
     img{
         height: 100%;
