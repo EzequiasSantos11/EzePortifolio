@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 import Link from "next/link";
 interface ButtonProps{
-  text: string,
+  text: any,
   to?: string
 }
 export function Button({text, to}: ButtonProps){
